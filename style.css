@@ -1,0 +1,151 @@
+
+h1 {
+  font-size: 41px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+  text-align: center;
+  box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+  margin-left: 90px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 139px;
+  margin-top: 25px;
+  display: flex;
+}
+
+p img {
+  position: absolute;
+}
+
+.banner {
+  display: flex;
+}
+
+.logo2 {
+  /*Shape 8 copy 3*/
+  width: 83px;
+  height: 83px;
+  border-radius: 13px;
+  /*background-color: #f5c506;*/
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.logo1 {
+  /*Shape 8 copy 4*/
+  width: 79px;
+  height: 79px;
+  /*background-color: #f5c506;*/
+  z-index: 1;
+}
+
+.mainnav {
+  width: 453px;
+  height: 41px;
+  background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+  /*margin-top: 70px;
+  margin-right: 140px;*/
+  z-index: 2;
+}
+
+.mainnav ul {
+  /*шрифты fontsqurel загрузить 
+  google ссылку в link head*/
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0px;
+  color: #9b7d08;
+  font-family: "Segoe WP";
+  text-align: center;
+}
+
+.mainnav1 {
+  width: 453px;
+  height: 41px;
+  opacity: 0.27;
+  background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+  z-index: 0;
+}
+
+.mainnav2 {
+  width: 453px;
+  height: 41px;
+  opacity: 0.27;
+  background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+  z-index: 1;
+}
+
+.nav {
+  width: 453px;
+
+  height: 41px;
+  margin-top: 70px;
+  margin-right: 140px;
+}
+
+.wrapper {
+  max-width: 1024px;
+  height: 1847px;
+}
+
+.wrapper1 {
+  height: 565px;
+  /*<565px>
+  layer 20*/
+  background-image: url("assets/Layer 20.svg");
+  /*background-color:aquamarine;*/
+  width: 100%;
+  z-index: 0;
+}
+
+.wrapper2 {
+  /*<213px>*/
+  height: 213px;
+  display: flex;
+  background-color:azure;
+  text-align: center;
+}
+
+.wrapper2 ul {
+  display: flex;
+  flex-basis: 1019px;
+  justify-content: space-between;
+}
+
+.wrapper3 {
+  /*<508px>
+  Layer 10 copy 3*/
+  display: flex;
+  height: 508px;
+  background-image: url("assets/Layer 10 copy 3.svg");
+  background-color:beige;
+}
+
+.wrapper3 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper4 {
+  height: 495px;
+  /*<495px>
+  Layer 32*/
+  background-image: url("assets/Layer 32.svg");
+  background-color:blue;
+}
+
+.wrapper5 {
+  /*<62px>*/
+  background-image: url("assets/Layer 31.svg");
+  background-color:green;
+  height: 62px;
+}
