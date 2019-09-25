@@ -1,1 +1,1 @@
-https://katokm.github.io/erroryal
+https://katokm.github.io/erroryal/
